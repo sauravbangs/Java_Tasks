@@ -2,7 +2,7 @@ public class ProductDetails_JyotsnaG
 
 {public static void main(String[] args) {
     //variable declared
-
+// Adding a comment to recommit the file
     String productName = "ops_deliverbility";
     double price = 83901.92;
     int quantity = 15;

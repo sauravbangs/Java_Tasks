@@ -2,6 +2,7 @@ public class UserProfile_JyotsnaG {
 
     public static <string> void main (String[] args) {
 // variable declaration
+        // Adding a comment to recommit the file
         int campaign_id = 12345;
         String campaign_name = "BOLDMGCampaign";
         double amount = 9362929.39;

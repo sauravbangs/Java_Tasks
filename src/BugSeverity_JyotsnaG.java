@@ -14,7 +14,7 @@ public class BugSeverity_JyotsnaG {
             // Enter the input
             System.out.print("Is it a production issue? (true/false): ");
             boolean isProductionIssue = scanner.nextBoolean();
-
+// Adding a comment to recommit the file
             //declare variable
             //  int bugCount=8;
             //  boolean isProductionIssue = true;

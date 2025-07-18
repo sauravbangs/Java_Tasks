@@ -4,6 +4,7 @@ public class LoginValidation_JyotsnaG {
     public static void main(String[] args) {
         String username = "BOLD";
         String password = "QWERTY";
+        // Adding a comment to recommit the file
 // input from keyboard
         Scanner scanner = new Scanner(System.in);
 
@@ -15,11 +16,12 @@ public class LoginValidation_JyotsnaG {
 
         // match the condition
 
-      // if (username == inusername && password == inpassword) {
-       // System.out.print("Login Successful");
-       // } else {
-       //     System.out.print("Login Failed");
-       // }
+//     //  if (username == inusername && password == inpassword)
+//       {
+//        System.out.print("Login Successful");
+//        } else {
+//            System.out.print("Login Failed");
+//        }
 
         if(!inusername.equals(username)) {
             System.out.println("Invaid username");
