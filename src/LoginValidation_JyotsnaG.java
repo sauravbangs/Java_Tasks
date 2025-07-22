@@ -16,20 +16,20 @@ public class LoginValidation_JyotsnaG {
 
         // match the condition
 
-//     //  if (username == inusername && password == inpassword)
-//       {
-//        System.out.print("Login Successful");
-//        } else {
-//            System.out.print("Login Failed");
-//        }
-
-        if(!inusername.equals(username)) {
-            System.out.println("Invaid username");
-        } else if (!inpassword.equals(password))
-        { System.out.println("Invaid Password");
+      if (username == inusername && password == inpassword)
+       {
+        System.out.print("Login Successful");
         } else {
-            System.out.println("Login Successful");
+            System.out.print("Login Failed");
         }
+
+//        if(!inusername.equals(username)) {
+//            System.out.println("Invaid username");
+//        } else if (!inpassword.equals(password))
+//        { System.out.println("Invaid Password");
+//        } else {
+//            System.out.println("Login Successful");
+//        }
         scanner.close();
     }
 }

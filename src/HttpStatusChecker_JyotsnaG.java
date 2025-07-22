@@ -6,7 +6,8 @@ import java.net.ProtocolException;
 import java.net.URL;
 import java.util.Scanner;
 
-public class HttpStatusChecker_JyotsnaG {
+public class HttpStatusChecker_JyotsnaG
+{
     public static void main (String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
          System.out.print("Enter the URL ;");
@@ -14,17 +15,17 @@ public class HttpStatusChecker_JyotsnaG {
 
          URL url = new URL(urlString);
         HttpURLConnection connection = null;
-        try {
-            connection = (HttpURLConnection) url.openConnection();
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-
-        try {
-            connection.setRequestMethod("GET");
-        } catch (ProtocolException e) {
-            throw new RuntimeException(e);
-        }
+//        try {
+//            connection = (HttpURLConnection) url.openConnection();
+//        } catch (IOException e) {
+//            throw new RuntimeException(e);
+//        }
+//
+//        try {
+//            connection.setRequestMethod("GET");
+//        } catch (ProtocolException e) {
+//            throw new RuntimeException(e);
+//        }
 
         int statusCode = connection.getResponseCode();
 
@@ -38,7 +39,6 @@ break;
             case 401:
                 System.out.println("Unauthorized – Authentication is required");
 break;
-
             case 403:
             System.out.println("Forbidden – You do not have permission");
 break;
